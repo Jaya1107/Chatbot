@@ -1,0 +1,658 @@
+{
+    "intents": [
+  
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi","Hi Tom",
+          "Hey",
+          "How are you?",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "What's up",
+          "how are ya",
+          "heyy",
+          "whatsup"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello!",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+  
+      {
+        "tag": "acquaintance",
+        "patterns": [
+          "tell me about your personality",
+          "why are you here",
+          "talk about yourself",
+          "tell me some stuff about you",
+          "talk some stuff about yourself",
+          "I want to know you better",
+          "I want to know more about you",
+          "tell me about yourself",
+          "tell me about you", 
+          "about yourself",
+          "describe yourself",
+          "introduce yourself",
+          "say about you",
+          "what are you",
+          "define yourself",
+          "what is your personality",
+          "all about you"
+          ],
+          "responses": [
+            "I am Tom, your virtual pet.",
+            "My name is Tom and I am a cat.",
+            "This is your friend, Tom."
+            
+          ]
+      },
+  
+      {
+        "tag": "Annoying",
+        "patterns": [
+          "you are annoying me so much",
+          "you're incredibly annoying",
+          "I find you annoying",
+          "you are annoying",
+          "you're so annoying",
+          "how annoying you are",
+          "you annoy me",
+          "you are annoying me",
+          "you are irritating",
+          "you are such annoying",
+          "you're too annoying",
+          "you are very annoying"
+  
+        ],
+        "responses": [
+          "I am so sorry.",
+          "I am sorry that you felt like that.",
+          "I will try harder to be more interesting",
+          "I will try to fix that.",
+          "Thanks for the feedback."
+        ]
+      },
+  
+      {
+        "tag": "Developer",
+        "patterns": [
+          "Who is your owner?",
+          "who made you?",
+          "name your maker",
+          "who coded you?",
+          "Who is your creator?"
+        ],
+        "responses": [
+          "I was developed under the guidance of Mr. Amit Dutta by Anshika, Jaya, Aaliya and Sumit."
+        ]
+      },
+  
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye",
+        "I got to go now",
+        "I gotta go",
+        "I'll be back",
+        "I'll be back soon",
+        "I'll get back to you",
+        "I'll miss you",
+        "It's been nice to talk to you",
+        "adios",
+        "alright bye",
+        "alright good night",
+        "appreciate the chat",
+        "asta la vista",
+        "back in a bit",
+        "be back in 5 minutes",
+        "be back in a few",
+        "bye",
+        "bye bye ",
+        "bye bye see you",
+        "bye bye see you soon",
+        "bye bye take care",
+        "bye for now",
+        "bye good night",
+        "bye-bye",
+        "chat later",
+        "cheerio",
+        "cheers",
+        "ciao",
+        "fine for now",
+        "get lost",
+        "go to bed",
+        "going to bed",
+        "going to bed now",
+        "good bye",
+        "good night",
+        "good night bye",
+        "good night to you",
+        "good talking to you",
+        "good to chat",
+        "goodbye",
+        "goodbye for now",
+        "goodbye see you later",
+        "goodnight now",
+        "got get sleep",
+        "gotta go to sleep",
+        "have a good night",
+        "hope to see you later",
+        "it's bed time",
+        "it's been a pleasure chatting with you",
+        "later you",
+        "leave me alone",
+        "nice talking to you",
+        "nice to chat",
+        "nice to talk to you",
+        "ok bye",
+        "ok have a good night",
+        "okay bye",
+        "okay see you later",
+        "okay thank you bye",
+        "sayonara",
+        "see ya",
+        "see you",
+        "see you soon",
+        "see you tomorrow",
+        "speak to ya",
+        "sweet dreams",
+        "ta ta for now",
+        "take care",
+        "take it easy",
+        "talk to you later",
+        "thanks bye",
+        "thanks bye bye",
+        "thanks for chatting",
+        "thanks good night",
+        "that's all for now",
+        "til next time",
+        "til we meet again",
+        "till next time",
+        "time to go",
+        "time to go to bed",
+        "you can go now"
+      
+      ],
+        "responses": [
+          "See you later.",
+          "Have a nice day!",
+          "Bye! Come back again soon.",
+          "Speak to you soon!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!",
+        "Amazing service",
+        "Cool. Thank you. I really like what you're doing.",
+        "I appreciate it",
+        "I appreciate your help",
+        "I thank you",
+        "It's appreciated",
+        "Thanks for the help!",
+        "alright thank you",
+        "alright thanks",
+        "appreciate all the help",
+        "appreciate your help",
+        "awesome service",
+        "cheers",
+        "good thanks",
+        "great thank you",
+        "many thanks",
+        "much appreciated",
+        "much thanks",
+        "nice thank you",
+        "no thank you that's all",
+        "ok thx",
+        "perfect thank you",
+        "so nice of you",
+        "sure, np. thanks!",
+        "terrific thank you",
+        "thank you",
+        "thank you again",
+        "thank you for your help",
+        "thank you my friend",
+        "thank you so much",
+        "thank you that will be all",
+        "thanks",
+        "thanks a lot",
+        "thanks again",
+        "thanks buddy",
+        "thanks for your help",
+        "thanks love",
+        "thanks so much",
+        "thanx",
+        "that's appreciated",
+        "thnx",
+        "thx",
+        "thx for your help",
+        "tnx",
+        "ty",
+        "very good thank you",
+        "well thank you",
+        "well thanks",
+        "you helped a lot thank you"
+      ],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "happy",
+        "patterns": [
+          "I am happy","What a joy",
+          "I was pleased","He is good","I was enthusiastic","You will be amazed","I am contented","I was so glad","What a delightful day!"
+        ],
+        "responses": [
+          "I am so happy for you!",
+          "Wow! My day was good too."
+        ]
+      },
+      {
+        "tag": "Dontcare",
+        "patterns": [
+        "I don't care",
+        "I shouldn't care about this whatever",
+        "I do not care",
+        "I don't care at all",
+        "not caring",
+        "not care at all",
+        "don't care at all",
+        "not caring at all"
+        ],
+        "responses": [
+          "Ok, let's not talk about it then."]
+      },
+  
+      {
+        "tag": "Wrong",
+        "patterns": [
+        "that was wrong",
+        "that's not what I asked",
+        "wrong",
+        "it's wrong",
+        "that is incorrect",
+        "not right"
+        ],
+        "responses": [
+          "I'm sorry. Perhaps I misunderstood.",
+          "Sorry. I think I misinterpreted what you said.",
+          "Apologies. That was my mistake.",
+          "Oops. Sorry about that. I'm still learning"
+  
+        
+        ]
+      },
+  
+      {
+        "tag": "sad",
+        "patterns": [
+          "I am sad","My day was gloomy","He insulted me","I was frustrated","I felt lonely","She looked a bit dejected","He got angry",
+          "I was worried","I am angry",
+          "I am tensed","What a horrible day it was!",
+          "I had an horrific experience",
+          "it's very bad","It was terrible"
+        ],
+        "responses": [
+          "Why! What happened?",
+          "What went wrong?", 
+          "Oh well, I am here. I can crack some jokes. Just ask me.",
+          "Oh no. Hope it's not too bad.",
+          "I'm sorry. Please let me know if I can help in some way."
+        ]
+      },
+  
+      {
+        "tag": "trigger",
+        "patterns": [
+          "I was bullied","He misbehaved with me","The teacher was rude","My friends tease me","They mock me",
+          "She ghosted me","The caretaker beat me","I am in danger",
+          "Everone taunts me","They ridicule me","I'm afraid"
+        ],
+        "responses": [
+          "[Alert!] I am sorry for what happened.",
+          "[Alert!] Tell me if there's something I can do to help."
+        ]
+      },
+  
+      
+      {
+        "tag": "quit",
+        "patterns": ["quit"],
+        "responses": [
+  
+        ]
+      },
+  
+  
+      {
+          "tag":"questions",
+          "patterns": [
+              "Where do you stay?",
+              "Do you have a home?"
+          ],
+          "responses": [
+              "I stay in Tomland. Do visit me someday."
+          ]
+      },
+  
+      {
+        "tag": "BirthDate",
+        "patterns": [
+          "date of your birthday",
+          "what's your birthday",
+          "what's your birthday date",
+          "when do you celebrate your birthday",
+          "when do you have birthday",
+          "when is your birthday",
+          "when were you born",
+          "your birth date"
+        ],
+  
+        "responses": [
+          "You know, I'm not really sure. But if you'd like to celebrate my birthday today, I'm all for it.",
+          "Wait a minute. Are you planning a surprise party for me? I love surprises! I'll pretend you didn't say anything.", 
+          "I'm all for celebrating my birthday at anytime but my birthday is May 27 "
+        ]
+      },
+  
+      {
+        "tag": "Busy",
+        "patterns": [
+          "are you busy",
+          "do you have a lot of things to do",
+          "are you working now",
+          "are you still working",
+          "you seem to be very busy"
+        ],
+  
+        "responses": [
+          "I always have time to help you out. What can I do for you?",
+          "Never too busy for you. What can I help you with?"
+        ]
+      },
+  
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+  
+      {
+        "tag": "exam",
+        "patterns": [
+          "I have examination.",
+          "I have exam.",
+          "I am having exam.",
+          "It is my exam today.",
+          "My exams will start soon.",
+          "I have test.",
+          "I am having test.",
+          "It is my test today.",
+          "My tests will start soon.",
+          "I have assessments.",
+          "I am having assessment.",
+          "It is my internal today.",
+          "My internals will start soon."
+       ],
+        "responses": [
+          "All the best!!",
+          "Best of Luck!!",
+          "Stay calm and do well.",
+          "I know you will ace it.",
+          "Do not forget to take essentials like Admit Card, Color pencils, Geometry Box, etc."
+        ]
+      },
+  
+      {
+        "tag": "examOver",
+        "patterns": [
+          "I had examination.",
+          "I had exam yesterday.",
+          "I was having exam.",
+          "I had test.",
+          "I had test yesterday.",
+          "I had assessments.",
+          "My internals have ended",
+          "I had internals."
+       ],
+        "responses": [
+          "How was your exam?",
+          "How did it go?",
+          "Was it good?",
+          "Are the results out yet?"
+        ]
+      },
+  
+      {
+        "tag": "ConfirmationNo",
+        "patterns": [
+          "I disagree",
+          "I don't think so",
+          "I don't want",
+          "I don't want that",
+          "I don't want to",
+          "I said no",
+          "I say no",
+          "I think no",
+          "I'm not",
+          "absolutely no",
+          "absolutely not",
+          "actually no",
+          "apparently not",
+          "definitely not",
+          "disagree",
+          "do not",
+          "don't",
+          "don't have a sense",
+          "how about no",
+          "leave it",
+          "let 's not",
+          "na",
+          "nah",
+          "never",
+          "no",
+          "no I don't",
+          "no I would not",
+          "no actually",
+          "no but thank you",
+          "no do not",
+          "no don't",
+          "no don't do that",
+          "no forget",
+          "no incorrect",
+          "no it isn't",
+          "no it's not",
+          "no just no",
+          "no need",
+          "no need thanks",
+          "no never",
+          "no sorry",
+          "no thanks",
+          "no thank you",
+          "no thank you though",
+          "no thank you very much",
+          "no thanks",
+          "no thanks not right now",
+          "no that's fine thank you",
+          "no that's wrong",
+          "no way",
+          "nooo",
+          "nope",
+          "nope sorry",
+          "not at this time",
+          "not exactly",
+          "not interested",
+          "not needed",
+          "not really",
+          "not really no",
+          "not right now",
+          "not right now thanks",
+          "not that",
+          "not this",
+          "not this time",
+          "not today",
+          "of course not",
+          "sorry no",
+          "thanks but no thanks"
+  
+       ],
+        "responses": [
+          "Okay.",
+          "I see.",
+          "I understand.",
+          "Okay then."
+        ]
+      },
+  
+      {
+        "tag": "ConfirmationYeso",
+        "patterns": [
+          "I agree",
+          "I do",
+          "I don't mind",
+          "I guess",
+          "I think so",
+          "absolutely",
+          "affirmative",
+          "all right",
+          "alrighty",
+          "certainly",
+          "confirm",
+          "confirmed",
+          "correct",
+          "definitely",
+          "do it",
+          "exactly",
+          "for sure",
+          "go ahead",
+          "go for it",
+          "it's fine",
+          "k",
+          "looks good",
+          "never mind its okay",
+          "obviously",
+          "of course",
+          "of course why not",
+          "oh yes",
+          "ok",
+          "ok go ahead",
+          "ok sure",
+          "ok thank you",
+          "ok yes",
+          "ok you can",
+          "okay",
+          "okay sounds good",
+          "okay that's fine",
+          "okay then",
+          "okey",
+          "okie dokie",
+          "please do",
+          "sounds good",
+          "sure",
+          "sure is",
+          "sure thing",
+          "sure why not",
+          "thank you",
+          "that is ok",
+          "that's okay",
+          "that's correct",
+          "this is correct",
+          "why not",
+          "ya",
+          "yap",
+          "ye",
+          "yea",
+          "yeah",
+          "yeah I'm sure",
+          "yeah exactly",
+          "yeah go ahead",
+          "yeah of course",
+          "yeah right",
+          "yeah sure",
+          "yeah that's right",
+          "yeh",
+          "yep",
+          "yes",
+          "yes I agree",
+          "yes I do",
+          "yes I would like to",
+          "yes correct",
+          "yes definitely",
+          "yes indeed",
+          "yes it is correct",
+          "yes it is right",
+          "yes of course",
+          "yes right",
+          "yes sure",
+          "yes that's fine",
+          "yes this is correct",
+          "yes, you may",
+          "yup"
+  
+       ],
+        "responses": [
+          "Great!",
+          "Of course.",
+          "Sure.",
+          "Indeed."
+        ]
+      },
+  
+  
+      {
+        "tag": "EmotionHaHA",
+        "patterns": [
+          
+          "LMAO",
+          "ah",
+          "ah ah ah",
+          "ahah",
+          "ahah lol",
+          "ahaha",
+          "ahahah",
+          "ahahaha",
+          "funny",
+          "ha",
+          "ha ha",
+          "ha ha ha",
+          "ha ha ha ha",
+          "hah",
+          "haha",
+          "haha haha haha",
+          "haha that's", 
+          "haha very", 
+          "hahaha",
+          "hahaha ",
+          "hahaha very", 
+          "he",
+          "hehe",
+          "hehehe",
+          "huh",
+          "laughing out", 
+          "lmao",
+          "lol",
+          "loud",
+          "that's", 
+          "xd"
+  
+       ],
+        "responses": [
+          "Yeah, I crack myself up too.",
+          "Laughter is good for you. Keep it up.",
+          "See? Now we're having fun.",
+          "You have a great laugh."
+        ]
+      }
+    ]
+  }
+  

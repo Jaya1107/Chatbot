@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi","Hi Tom",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later.",
+        "Have a nice day!",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "happy","joy",
+        "pleased","good","enthusiasm","amazed","content","glad","delight","hopeful"
+      ],
+      "responses": [
+        "I am so happy for you!",
+        "Wow! My day was good too."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "sad","gloomy","insult","frustrated","lonely","dejected","angry",
+        "worried",
+        "tensed"
+      ],
+      "responses": [
+        "Why! What happened?",
+        "What went wrong?", 
+        "Oh well, I am here. I can crack some jokes. Just ask me."
+      ]
+    },
+    {
+      "tag": "Annoying",
+      "patterns": [
+        "you are annoying me so much",
+        "you're incredibly annoying",
+        "I find you annoying",
+        "you are annoying",
+        "you're so annoying",
+        "how annoying you are",
+        "you annoy me",
+        "you are annoying me",
+        "you are irritating",
+        "you are such annoying",
+        "you're too annoying",
+        "you are very annoying"
+
+      ],
+      "responses": [
+        "I am so sorry.",
+        "I am sorry that you felt like that.",
+        "I will try harder to be more interesting",
+        "I will try to fix that.",
+        "Thanks for the feedback."
+      ]
+    },
+    {
+      "tag": "trigger",
+      "patterns": [
+        "bully","misbehave","rude","tease","mock",
+        "ghost","beat","danger",
+        "taunt","ridicule"
+      ],
+      "responses": [
+        "[Alert!] I am sorry for what happened.",
+        "[Alert!] Tell me if there's something I can do to help."
+      ]
+    },
+    {
+        "tag":"questions",
+        "patterns": [
+            "Where do you stay?",
+            "Do you have a home?"
+        ],
+        "responses": [
+            "I stay in Tomland. Do visit me someday."
+        ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
+
